@@ -25,7 +25,7 @@ function Parallax() {
             scrollTrigger: {
                 trigger: parallaxRef.current,
                 start: "top top",
-                end: "bottom bottom",
+                end: "bottom top",
                 scrub: true,
                 pin: true,
                 onUpdate: (self) => {
