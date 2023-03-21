@@ -17,7 +17,7 @@ body {
     color: var(--secondaryColor);
 }
 
-.parallax-wrapper {
+.parallax-outer {
     overflow: hidden;
 }
 
@@ -80,7 +80,7 @@ body {
 
 .copy {
     position: absolute;
-    bottom: 50%;
+    bottom: 0%;
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 0;
@@ -89,6 +89,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    opacity: 0;
 }
 
 .copy h1 {
@@ -101,11 +102,13 @@ body {
     padding: 1rem;
     font-weight: 800;
     border-radius: 0.5rem;
+    opacity: 0;
 }
 
 .about {
     color: var(--secondaryColor);
     padding-left: 10%;
+    padding-bottom: 20%;
 }
 
 .about h2 {
@@ -116,4 +119,8 @@ body {
 .about p {
     margin-top: 20px;
     width: 50%;
+}
+
+.parallax-inner {
+    height: 500vh;
 }
