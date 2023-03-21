@@ -26,3 +26,54 @@ body {
     width: 100%;
     position: relative;
 }
+
+.parallax img {
+    position: absolute;
+}
+
+
+.mountain-3,
+.mountain-2,
+.mountain-1 {
+    width: 100%;
+    bottom: 0;
+    z-index: 3;
+}
+
+.mountain-2 {
+    bottom: 20px;
+    z-index: 2;
+}
+
+.mountain-1 {
+    bottom: 40px;
+    z-index: 1;
+}
+
+.sun {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+.clouds-left {
+    left: 0;
+    width: 20%;
+}
+
+.clouds-right {
+    right: 0;
+    width: 20%;
+}
+
+.clouds-bottom {
+    bottom: 0px;
+    width: 100%;
+}
+
+.stars {
+    top: -550px;
+    left: 0;
+    width: 100%;
+}
