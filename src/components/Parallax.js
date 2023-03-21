@@ -88,7 +88,7 @@ function Parallax() {
         tl.to(
             sun.current,
             {
-                y: "110%",
+                y: "+=210",
             },
             0
         );
