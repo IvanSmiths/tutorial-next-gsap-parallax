@@ -13,6 +13,10 @@ function Parallax() {
                 <img className='clouds-left' src="/parallax/clouds-left.svg" />
                 <img className='clouds-right' src="/parallax/clouds-right.svg" />
                 <img className='stars' src="/parallax/stars.svg" />
+                <div className="copy">
+                    <h1>Journey</h1>
+                    <span>Discover more</span>
+                </div>
             </div>
         </div>
     )
