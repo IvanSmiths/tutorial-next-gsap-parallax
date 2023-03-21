@@ -102,3 +102,18 @@ body {
     font-weight: 800;
     border-radius: 0.5rem;
 }
+
+.about {
+    color: var(--secondaryColor);
+    padding-left: 10%;
+}
+
+.about h2 {
+    color: var(--secondaryColor);
+    font-size: 5rem;
+}
+
+.about p {
+    margin-top: 20px;
+    width: 50%;
+}
